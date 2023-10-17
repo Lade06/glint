@@ -1,0 +1,53 @@
+
+.glint{
+    position: relative;
+    top: 10em;
+    left: 3em;
+}
+p{
+    font-size: 2em;
+}
+body{
+    overflow-y: hidden;
+    background-color: black;
+    
+} 
+button{
+    background: black;
+    color: white;
+    height: 3em;
+    border: 3px solid white;
+}
+button:hover{
+    background: white;
+    color: black;
+}
+.navv{
+    display: flex;
+    position: relative;
+    left: 60em;
+}
+/* .navv a:hover{
+    color: yellow;
+} */
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 600px;
+    height: 400px;
+  }
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 600px;
+    height: 400px;
+  }
+  .gmap_iframe {
+    width: 600px !important;
+    height: 400px !important;
+  }
+  
+  
+    
+   
+    
